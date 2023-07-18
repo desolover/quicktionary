@@ -6,7 +6,7 @@ Golang-lib for parsing russian-language-words from [Wiktionary](https://ru.wikti
 * `quicktionary` — for parsing [XML-dumps](https://dumps.wikimedia.org/ruwiktionary/) (stored in "pages-articles-multistream" files)
 * `speech` — for decoding speech-parts templates.
 
-Code example, converting speech-parts templates from "pages-articles-multistream" XML to internal form:
+Code example, converting speech-parts templates from "pages-articles-multistream" XML to the internal form:
 ```golang
 file, err := os.Open(`./ruwiktionary-20210801-pages-articles-multistream.xml`)
 if err != nil {
